@@ -1,0 +1,5 @@
+void insertAtHead(ListNode*& head, int val) {
+    ListNode* newNode = new ListNode(val);
+    newNode->next = head;
+    head = newNode;
+}
